@@ -1,0 +1,123 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: content-box;
+}
+:root {
+  --Stone100: hsl(30, 54%, 90%);
+  --Stone150: hsl(30, 18%, 87%);
+  --Stone600: hsl(30, 10%, 34%);
+  --Stone900: hsl(24, 5%, 18%);
+  --Brown800: hsl(14, 45%, 36%);
+  --Rose800: hsl(332, 51%, 32%);
+  --Rose50: hsl(330, 100%, 98%);
+}
+
+body {
+  font-family: "Outfit", serif;
+  /* margin: 20px; */
+  text-align: justify;
+  width: 90%;
+  margin: 0 auto;
+}
+header,
+h1 {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  /* text-align: justify; */
+}
+li {
+  color: var(--Stone600);
+  padding-left: 10px;
+  padding: 7px;
+  /* Ensure space around list */
+}
+header {
+  font-size: 40px;
+  font-style: oblique;
+  color: var(--Stone900);
+  margin: 20px ;
+}
+.navContainer {
+  background-color: var(--Stone100);
+  padding: 15px;
+  text-align: justify;
+  width: 90%;
+  margin: 0 auto;
+}
+.navContainer ul {
+  margin: 20px;
+  /* Ensure space around the list */
+  width: 90%;
+  margin: 0 auto;
+}
+
+.navContainer li {
+  list-style-position: outside;
+  margin: 5px;
+  margin-left: 10px;
+  /* Move bullets inside the background; */
+  margin-bottom: 10px;
+  /* Add space inside each item */
+  background-color: var(--Stone100);
+}
+
+.navContainer h2 {
+  color: var(--Rose800);
+  margin-bottom: 1px;
+}
+img {
+  width: 90% ;
+  margin: 0 auto;
+  display: block ;
+}
+p {
+  margin-bottom: 30px;
+  color: var(--Stone600);
+}
+h1 {
+  color: var(--Brown800);
+  margin-top: 30px;
+}
+.navContainer li::marker {
+  color: var(--Rose800);
+  background-color: var(--Stone100);
+}
+.ingredientSection li::marker {
+  color: var(--Brown800);
+}
+.instrutionSections li::marker {
+  color: var(--Brown800);
+  margin: 20px;
+}
+.number {
+  color: var(--Brown800);
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+tr {
+  border-bottom: 1px solid gray;
+  /* line between rows */
+}
+td {
+  padding: 10px;
+  color: var(--Stone600);
+}
+.ingredientSection {
+  margin: 20px;
+}
+.instrutionSections {
+  margin: 20px;
+}
+.nutritionSection {
+  margin: 20px;
+}
+.instrutionSection ol {
+  list-style-position: outside;
+}
+
+img {
+  border-radius: 10px;
+}
